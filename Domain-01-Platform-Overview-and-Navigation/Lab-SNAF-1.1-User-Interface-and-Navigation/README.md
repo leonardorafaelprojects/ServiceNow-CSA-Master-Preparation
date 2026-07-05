@@ -24,6 +24,8 @@ Abre o teu ambiente da Nebula Cloud Dynamics e segue estes passos:
 5. Seleciona o favorito "Create New", muda a cor para verde (sucesso) e escolhe um ícone de "mais (+)". Faz o mesmo para o "Resolved", escolhendo outra cor.
 
 > 📸 **PRINT 1: Menu de Favoritos Customizado**
+>
+> 
 > ![Favoritos Customizados](../../images/lab1-1-favorites.png)
 
 ---
@@ -36,6 +38,8 @@ Abre o teu ambiente da Nebula Cloud Dynamics e segue estes passos:
 5. Repara como o navegador agora está quase vazio! O Abel não tem a *role* de Admin, logo a plataforma esconde módulos confidenciais (segurança visual).
 
 > 📸 **PRINT 2: Visão do Abel Tuter (Impersonation)**
+>
+> 
 > ![Visão do Abel Tuter](../../images/lab1-1-impersonation.png)
 
 6. Clica novamente no avatar do Abel e seleciona **End Impersonation** para voltares a ser o System Administrator todo-poderoso da Nebula.
