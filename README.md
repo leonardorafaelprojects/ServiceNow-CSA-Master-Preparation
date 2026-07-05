@@ -63,6 +63,6 @@ Aqui encontrarás dois tipos de laboratórios:
 ## 🤝 Contribuição e Contacto
 Sente-te à vontade para fazer um *fork*, abrir *issues* com dúvidas ou sugerir novos laboratórios através de *pull requests*. Vamos fortalecer a comunidade ServiceNow!
 
-Conecta-te comigo no LinkedIn para trocarmos ideias e experiências: **[Insere o link do teu perfil do LinkedIn aqui]**
+Conecta-te comigo no LinkedIn para trocarmos ideias e experiências: **[Leonardo Rafael](https://www.linkedin.com/in/leonardorafaelx)**
 
 *Happy Building! ☁️⚙️*
