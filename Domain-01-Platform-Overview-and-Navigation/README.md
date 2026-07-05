@@ -56,24 +56,28 @@ O *User Impersonation* permite que os administradores assumam a sessão de outro
 Prepara-te para a prova! Responde a estas 10 questões em inglês (formato oficial do exame). As respostas e os comentários do Arquiteto estão no final.
 
 **1. Which of the following allows a user to edit field values in a list without opening the form?**
+
 A) Form Designer
 B) Data Editor
 C) List Editor
 D) Edit Menu
 
 **2. What is the primary function of user impersonation?**
+
 A) View custom perspectives
 B) Testing and visibility
 C) Unlock Application master list
 D) Activate verbose logging
 
 **3. Which one of the following statements is true about Column Context Menus in a list view?**
+
 A) It displays actions related to viewing and filtering the entire list.
 B) It displays actions such as creating quick reports, configuring the list, and exporting data.
 C) It displays actions such as view form, view related task, and add relationship.
 D) It displays actions related to filtering options, assigning tags, and search.
 
 **4. When searching using the App Navigator (Filter Navigator) search field, what can be returned? (Choose three)**
+
 A) Names of Applications
 B) History Records
 C) Names of Modules
@@ -81,36 +85,42 @@ D) Favorites
 E) Specific Incident numbers
 
 **5. Which module would a System Administrator use to change the banner image, browser tab title, and system date format globally?**
+
 A) User Preferences
 B) Basic Configuration UI16
 C) System Properties > UI Design
 D) Application Configuration
 
 **6. Which feature in the Next Experience UI displays a chronological list of recently accessed records and lists?**
+
 A) Workspaces
 B) Favorites
 C) Bookmarks
 D) History
 
 **7. Which type of ServiceNow page does NOT typically appear in the History tab of the Application Navigator?**
+
 A) Incident Lists
 B) Problem Forms
 C) UI Pages
 D) Change Request Records
 
 **8. If an administrator wants to globally change which columns are displayed for everyone on the Incident list, they should modify the:**
+
 A) List Layout
 B) Personalized List
 C) Form Layout
 D) User Preferences
 
 **9. What is the name of the search feature used to find specific data (like a user's name or a specific task number) across multiple tables in the entire instance?**
+
 A) Filter Navigator
 B) Global Search
 C) Connect Chat
 D) Schema Map
 
 **10. To perform user impersonation, a user must have either the 'admin' role or which other role?**
+
 A) security_admin
 B) itil_admin
 C) user_admin
