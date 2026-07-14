@@ -110,12 +110,22 @@ D) task
 ### 🔑 Gabarito Comentado (Análise do Arquiteto)
 
 **1. Resposta Correta: C** *Comentário:* A regra inquebrável do Condition Builder é o **FOV** (Field, Operator, Value).
+
 **2. Resposta Correta: B** *Comentário:* Relatórios instantâneos a partir de uma lista são gerados através do *Column Context Menu* (clique com botão direito no título da coluna).
+
 **3. Resposta Correta: C** *Comentário:* Somente o *Form Designer* (interface visual) possui os controles para adicionar novas *Sections* de 1 ou 2 colunas.
+
 **4. Resposta Correta: B** *Comentário:* Pegadinha mapeada! O *Activity Stream* não é uma coluna da tabela atual; o Formatter é apenas a "janela" que exibe os dados externos no formulário.
+
 **5. Resposta Correta: D** *Comentário:* O *List Editor* (duplo clique numa célula) é a ferramenta primária e mais rápida para edições de registros em linha (*inline*).
+
 **6. Resposta Correta: A** *Comentário:* A "Regra do Escritório": Pintar a parede (List Layout) é global. Ajustar a própria cadeira (Personalized List) é individual e não requer privilégios de admin.
+
 **7. Respostas Corretas: A, D** *Comentário:* O agrupamento visual na lista pode ser feito tanto no *Column Context Menu* quanto no *List Context Menu* principal (hambúrguer icon).
+
 **8. Resposta Correta: C** *Comentário:* *Templates* atuam como "carimbos" que preenchem automaticamente múltiplos campos em formulários novos.
+
 **9. Resposta Correta: C** *Comentário:* Não existe opção "Make Active" para filtros. A tríade de compartilhamento é: Name -> Visibility -> Save.
+
 **10. Resposta Correta: D** *Comentário:* Uma Tarefa (*Task*) é a unidade de trabalho fundamental da plataforma, possuindo um ciclo de vida inerente (Aberta > Em andamento > Fechada).
+
