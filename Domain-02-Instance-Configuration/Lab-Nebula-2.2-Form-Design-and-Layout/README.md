@@ -11,9 +11,11 @@ A minha missão foi aplicar o **Form Designer** para organizar arquiteturalmente
 A arquitetura exigia a criação de uma nova área (Section) com estrutura de 2 colunas. Esta tarefa é exclusiva do **Form Designer** (o *Form Layout* clássico não cria colunas). Criamos a secção "Nebula Resolution Info" para isolar visualmente os campos de fecho do ticket.
 
 > 📸 **Evidência 01: Manipulação visual no Form Designer**
+> 
 > ![Form Designer UI](../../images/lab2_2_step1.png)
 
 > 📸 **Evidência 02: Formulário em Produção (Resultado)**
+> 
 > ![Live Form](../../images/lab2_2_step2.png)
 
 ### 2. Automação de Entrada de Dados (Templates)
@@ -21,4 +23,5 @@ Em vez de depender de Client Scripts complexos para cenários comuns, aplicamos 
 
 > 📸 **Evidência 03: Aplicação instantânea do Template**
 > *(Observe a notificação azul provando que o ServiceNow executou o preenchimento dos campos via Template Bar)*
+> 
 > ![Template Applied](../../images/lab2_2_step3.png)
