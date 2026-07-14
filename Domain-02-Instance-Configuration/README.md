@@ -21,7 +21,7 @@ Aplicar uma governança visual impecável. Precisamos otimizar as "Fichas Cadast
 
 ## 🧠 Framework de Estudo Avançado: A Teoria Desconstruída
 
-Para dominar este domínio e atingir os 90%+ na prova, desconstruímos a arquitetura visual da plataforma:
+Para dominar este domínio na prova, desconstruímos a arquitetura visual da plataforma:
 
 ### 1. A Analogia do Mundo Real (Feynman Technique)
 * **As Listas (Lists):** Pense no banco de dados como uma gigantesca *Planilha de Excel*. Cada linha (Row) é um `Record` (Registro). Cada coluna (Column) é um `Field` (Campo).
