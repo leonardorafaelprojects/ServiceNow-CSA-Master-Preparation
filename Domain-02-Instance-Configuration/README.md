@@ -9,7 +9,7 @@ O Domínio de **Instance Configuration** (10% do exame CSA) é onde a experiênc
 ---
 
 ## 🏢 O Caso de Negócio (Nebula Cloud Dynamics)
-Na **Nebula Cloud Dynamics**, os nossos gestores de projeto e equipas de operações queixavam-se frequentemente de duas coisas:
+Na **Nebula Cloud Dynamics**, os nossos gestores de projeto e equipes de operações queixavam-se frequentemente de duas coisas:
 1. "Não consigo encontrar rapidamente os Incidentes Críticos da minha equipa" (Problema de Filtragem).
 2. "O formulário de Incidente tem muitos campos que não usamos, e os importantes estão escondidos" (Problema de Layout de Formulário).
 
