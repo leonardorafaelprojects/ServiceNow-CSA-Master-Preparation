@@ -1,27 +1,46 @@
 # 🔵 Lab Nebula 2.2: Form Design and Layout
 
-## 🏢 O Cenário Corporativo (Business Case)
-A equipa de Service Desk da **Nebula Cloud Dynamics** reportou que o formulário de Incidentes estava confuso. Os campos de resolução do ticket estavam misturados com os dados do cliente, causando erros e aumentando o Tempo Médio de Resolução (MTTR). Além disso, incidentes de queda de rede (Network Outages) estavam a ser preenchidos manualmente com muita lentidão. 
+## 🏢 O Cenário (Business Case na Nebula)
+A equipa de Service Desk da Nebula Cloud Dynamics reportou que o formulário de Incidentes estava desorganizado, misturando campos de resolução com dados do cliente e aumentando o MTTR (Mean Time to Resolve). Além disso, incidentes recorrentes de queda de rede (*Network Outages*) estavam a ser preenchidos manualmente com muita lentidão. A tua missão é aplicar o Form Designer para reestruturar o layout e criar Templates para automação de dados.
 
-A minha missão foi aplicar o **Form Designer** para organizar arquiteturalmente a interface e implementar **Templates** para automação de preenchimento.
+---
 
-## 🛠️ Execução e Evidências Práticas
+## 📚 Teoria de Ouro para o Exame CSA (Anota isto!)
+* **Form Layout vs. Form Designer:** O *Form Layout* usa a interface clássica *Slushbucket* para adicionar campos rapidamente. O **Form Designer** é a única interface que permite criar visualmente **Sections** (secções estruturadas com 1 ou 2 colunas).
+* **Formatters:** Cuidado! Um *Formatter* (como o Activity Stream) não é uma coluna da base de dados. É um elemento visual injetado no formulário para mostrar dados complexos originários de outras tabelas.
+* **Templates:** São "carimbos" que permitem pré-preencher instantaneamente múltiplos campos (como Categoria, Prioridade e Grupo) num novo registo, poupando tempo na introdução de dados.
 
-### 1. Reestruturação com o Form Designer
-A arquitetura exigia a criação de uma nova área (Section) com estrutura de 2 colunas. Esta tarefa é exclusiva do **Form Designer** (o *Form Layout* clássico não cria colunas). Criamos a secção "Nebula Resolution Info" para isolar visualmente os campos de fecho do ticket.
+---
 
-> 📸 **Evidência 01: Manipulação visual no Form Designer**
+## 🛠️ Execução na PDI (Hands-on)
+Abre o teu ambiente da Nebula Cloud Dynamics e segue estes passos:
+
+### Parte 1: Reestruturação com o Form Designer
+1. Abre qualquer registo de Incidente (`Incident > All` e clica num número).
+2. Clica com o botão direito no cabeçalho superior (cinza) e seleciona **Configure > Form Design**.
+3. Desce até ao final da nova janela e arraste o bloco **Section** do menu esquerdo para o fundo do formulário.
+4. Dá o nome `Nebula Resolution Info` a esta nova Section e garante que tem um layout de **2 Colunas**.
+5. Arraste os campos `Close code` e `Close notes` para dentro desta Section. Clica em **Save** no topo direito.
+6. Volta ao formulário do incidente e recarrega a página.
+
+> 📸 **PRINT 1: Manipulação visual no Form Designer**
 > 
 > ![Form Designer UI](../../images/lab2_2_step1.png)
 
-> 📸 **Evidência 02: Formulário em Produção (Resultado)**
+> 📸 **PRINT 2: Formulário em Produção (Resultado)**
 > 
 > ![Live Form](../../images/lab2_2_step2.png)
 
-### 2. Automação de Entrada de Dados (Templates)
-Em vez de depender de Client Scripts complexos para cenários comuns, aplicamos um **Template** nativo. O template "Nebula Network Outage" foi configurado para injetar automaticamente Categoria, Prioridade e Impacto, eliminando o erro humano em momentos de crise (P1).
+### Parte 2: Automação de Entrada de Dados (Templates)
+1. No formulário do Incidente, clica no ícone **More options (...)** no cabeçalho e seleciona **Toggle Template Bar**.
+2. No rodapé da página que acabou de aparecer, clica no botão `+` (*Create a new template*).
+3. Cria o Template com as seguintes configurações: 
+   * **Name:** `Nebula Network Outage`
+   * **Template (Conditions):** `Category = Network`, `Priority = 1 - Critical`, `Impact = 1 - High`. 
+4. Clica em Submit.
+5. Cria um novo Incidente vazio (`Incident > Create New`). Clica no teu template no rodapé e verifica o preenchimento automático.
 
-> 📸 **Evidência 03: Aplicação instantânea do Template**
-> *(Observe a notificação azul provando que o ServiceNow executou o preenchimento dos campos via Template Bar)*
+> 📸 **PRINT 3: Aplicação instantânea do Template**
+> *(A barra azul no topo comprova a injeção automática dos dados)*
 > 
 > ![Template Applied](../../images/lab2_2_step3.png)
