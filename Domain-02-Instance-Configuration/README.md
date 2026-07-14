@@ -10,10 +10,10 @@ O Domínio de **Instance Configuration** (10% do exame CSA) é onde a experiênc
 
 ## 🏢 O Caso Real de Negócio (Nebula Cloud Dynamics)
 Na **Nebula Cloud Dynamics**, os nossos gestores de projeto e equipes de operações queixavam-se frequentemente de duas coisas:
-1. "Não consigo encontrar rapidamente os Incidentes Críticos da minha equipa" (Problema de Filtragem).
+1. "Não consigo encontrar rapidamente os Incidentes Críticos da minha equipe" (Problema de Filtragem).
 2. "O formulário de Incidente tem muitos campos que não usamos, e os importantes estão escondidos" (Problema de Layout de Formulário).
 
-A nossa missão arquitetural neste domínio é aplicar configurações globais para otimizar os ecrãs para a equipa, poupando tempo em cada interação. Isto envolve dominar o *Form Designer*, compreender a diferença entre vistas (Views) e usar operadores de filtros avançados.
+A nossa missão arquitetural neste domínio é aplicar configurações globais para otimizar os ecrãs para a equipe, poupando tempo em cada interação. Isto envolve dominar o *Form Designer*, compreender a diferença entre vistas (Views) e usar operadores de filtros avançados.
 
 ---
 
