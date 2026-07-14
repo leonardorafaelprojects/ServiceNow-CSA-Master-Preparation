@@ -23,6 +23,7 @@ Abre o teu ambiente da Nebula Cloud Dynamics e segue estes passos:
 4. Clica em **Save...**. Dá o nome `Nebula Critical Incidents`. Em *Visible to*, seleciona **Everyone**.
 
 > 📸 **PRINT 1: Condition Builder e Filtro Partilhado**
+> 
 > ![Condition Builder](../../images/lab2_1_step1.png)
 
 ### Parte 2: User Personalization (Ajustando a Visão)
@@ -31,6 +32,7 @@ Abre o teu ambiente da Nebula Cloud Dynamics e segue estes passos:
 3. Repara que a engrenagem agora tem uma marcação a indicar que a lista foi personalizada para o teu utilizador.
 
 > 📸 **PRINT 2: Lista Personalizada Ativa**
+> 
 > ![Personalized List](../../images/lab2_1_step2.png)
 
 ### Parte 3: Edição em Massa e Relatórios Instantâneos
@@ -39,7 +41,9 @@ Abre o teu ambiente da Nebula Cloud Dynamics e segue estes passos:
 3. Clica com o botão direito no título da coluna `Category` e seleciona **Bar Chart**.
 
 > 📸 **PRINT 3: List Editor em Ação**
+> 
 > ![List Editor](../../images/lab2_1_step3.png)
 
 > 📸 **PRINT 4: Gráfico de Barras via Context Menu**
+> 
 > ![Quick Report](../../images/lab2_1_step4.png)
